@@ -6,6 +6,7 @@ The Retention Manager wants answers to the following questions:
 - Number of customers who left within the last month
 - Services which the customer has signed for
 - Demographic info of the customers
+<br>
 
 ## Methods
 
@@ -23,6 +24,7 @@ Churn_Rate =
 ```
 
 ***2. Grouping the length of years when a customer stays and continue to use the services.***
+
 For 1-10 Years
 ```sql
 Tenure_1-10 = 
@@ -53,9 +55,12 @@ TotalAdminTickets = SUM(Table1[numAdminTickets])
 TotalTechTickets = SUM(Table1[numTechTickets])
 ```
 -------
+<br>
+
 ## 📊 Visualization
 
 <img src="https://github.com/AlexisShagyo/Images/blob/main/Customer%20Retention.jpg" alt="Image" width="800" height="450">
+<br>
 
 ## 📚 Insights
 
@@ -63,6 +68,7 @@ TotalTechTickets = SUM(Table1[numTechTickets])
 - 39% of the customers have signed up for services such as: Multiple Lines, Online Security, Online Backup, Device Protection, Tech Support, Streaming TV and Streaming Movies.
 - 30% of the customers have dependents and 48% of them have partners. 
 - 49% of the customers are female and 51% are composed of males. 59% of our customers have been using the services for more than 20 years and most of them are using Fiber Optic (44%) internet.
+<br>
 
 ## 📚 Recommendations:
 
