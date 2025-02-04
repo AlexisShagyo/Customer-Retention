@@ -13,27 +13,45 @@ In order to answer these questions, I made DAX measures to summarize the data th
 
 ***1. Calculating the Churn Rate:***
    
-|Churn_Rate = DIVIDE(COUNTROWS(FILTER(Table1, Table1[Churn] = "Yes")),COUNTROWS(Table1), 0)|
-|-------------|
+```sql
+Churn_Rate = 
+    DIVIDE(
+        COUNTROWS(FILTER(Table1, Table1[Churn] = "Yes")),
+        COUNTROWS(Table1),
+        0
+    )
+```
 
 ***2. Grouping the length of years when a customer stays and continue to use the services.***
-| Tenure_1-10 = COUNTROWS(FILTER(Table1, Table1[tenure] >= 0 && Table1[tenure] <= 10)) |
-|-------------|
-
-| Tenure_11-20 = COUNTROWS(FILTER(Table1, Table1[tenure] >= 11 && Table1[tenure] <= 20)) |
-|-------------|
-
-| Tenure_21&Above = COUNTROWS(FILTER(Table1, Table1[tenure] >= 21)) |
-|-------------|
+For 1-10 Years
+```sql
+Tenure_1-10 = 
+    COUNTROWS(
+        FILTER(Table1, Table1[tenure] >= 0 && Table1[tenure] <= 10)
+    )
+```
+For 11-20 Years
+```sql
+Tenure_11-20 = 
+    COUNTROWS(
+        FILTER(Table1, Table1[tenure] >= 11 && Table1[tenure] <= 20)
+    )
+```
+For 21 Years and Beyond
+```sql
+Tenure_21&Above = 
+    COUNTROWS(
+        FILTER(Table1, Table1[tenure] >= 21)
+    )
+```
 
 ***3. Counting the total number of Admin and Technical tickets raised.***
-
-| TotalAdminTickets = SUM(Table1[numAdminTickets]) |
-|-------------|
-
-| TotalTechTickets = SUM(Table1[numTechTickets]) |
-|------------|
-
+```sql
+TotalAdminTickets = SUM(Table1[numAdminTickets])
+```
+```sql
+TotalTechTickets = SUM(Table1[numTechTickets])
+```
 -------
 ## 📊 Visualization
 
