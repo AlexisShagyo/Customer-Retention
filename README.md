@@ -7,6 +7,8 @@ The Retention Manager wants answers to the following questions:
 - Services which the customer has signed for
 - Demographic info of the customers
 
+## Methods
+
 In order to answer these questions, I made DAX measures to summarize the data that is needed for the visual presentation. This is the list of measures that were done: 
 
 ***1. Calculating the Churn Rate:***
