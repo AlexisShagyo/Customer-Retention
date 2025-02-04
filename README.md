@@ -37,7 +37,7 @@ In order to answer these questions, I made DAX measures to summarize the data th
 -------
 ## 📊 Visualization
 
-<img src="https://github.com/AlexisShagyo/Images/blob/main/Customer%20Retention.jpg" alt="Image" width="1000" height="600">
+<img src="https://github.com/AlexisShagyo/Images/blob/main/Customer%20Retention.jpg" alt="Image" width="800" height="450">
 
 ## 📚 Insights
 
