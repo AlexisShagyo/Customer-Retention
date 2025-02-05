@@ -64,7 +64,7 @@ TotalTechTickets = SUM(Table1[numTechTickets])
 
 ## 📚 Insights
 
-- About 27% of our customers have left our services for the previous month. Most of which are under monthly basis contract (1,655 customers) and customers which has Fiber Optic as their internet provider (1,162 customers). About 1,313 customers have raised concerns with techinical problems.
+- In the previous month, approximately 27% of our customers discontinued our services. The majority of these customers were on monthly contracts, totaling 1,655 individuals. Many of them were subscribed to Fiber Optic Internet, which accounted for 1,162 customers. Additionally, around 1,313 customers in this group raised technical support tickets.
 - 39% of the customers have signed up for services such as: Multiple Lines, Online Security, Online Backup, Device Protection, Tech Support, Streaming TV and Streaming Movies.
 - 30% of the customers have dependents and 48% of them have partners. 
 - 49% of the customers are female and 51% are composed of males. 59% of our customers have been using the services for more than 20 years and most of them are using Fiber Optic (44%) internet.
@@ -72,7 +72,6 @@ TotalTechTickets = SUM(Table1[numTechTickets])
 
 ## 📚 Recommendations:
 
-According to the Churn data, customers are more likely to stay with concerns of the administrative one rather than the technical requirements. While a large part of the customers who left within the month have technical tickets raised, dominantly from Fiber Optic and only binded by a monthly contract.
+- A significant number of customers who left within the month had raised technical tickets, primarily related to Fiber Optic services. Agents should prioritize resolving technical concerns for Fiber Optic users, while those dealing with DSL and customers without internet access should concentrate on administrative matters.
 
-Agents should focus on solving Technical concerns from customers who uses Fiber Optic while DSL and those with no internet should prioritize solving the administrative aspect.
-
+- Given the data, there are some identified gaps that needed to be addressed, particularly what are the frequently occuring technical concern for Fiber Optic users. Consequently, what strategies can agents implement to effectively address the administrative concerns of customers who uses DSL and those without internet?
