@@ -68,10 +68,11 @@ TotalTechTickets = SUM(Table1[numTechTickets])
 - 39% of the customers have signed up for services such as: Multiple Lines, Online Security, Online Backup, Device Protection, Tech Support, Streaming TV and Streaming Movies.
 - 30% of the customers have dependents and 48% of them have partners. 
 - 49% of the customers are female and 51% are composed of males. 59% of our customers have been using the services for more than 20 years and most of them are using Fiber Optic (44%) internet.
+- It is essential for agents to prioritize resolving technical issues for Fiber Optic users. In contrast, agents assisting DSL customers and those without internet access should first address their administrative concerns. 
 <br>
 
 ## 📚 Recommendations:
 
-- A significant number of customers who left within the month had raised technical tickets, primarily related to Fiber Optic services. Agents should prioritize resolving technical concerns for Fiber Optic users, while those dealing with DSL and customers without internet access should concentrate on administrative matters.
+
 
 - Given the data, there are some identified gaps that needed to be addressed, particularly what are the frequently occuring technical concern for Fiber Optic users. Consequently, what strategies can agents implement to effectively address the administrative concerns of customers who uses DSL and those without internet?
