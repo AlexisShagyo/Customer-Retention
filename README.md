@@ -25,21 +25,21 @@ Churn_Rate =
 
 ***2. Grouping the length of years when a customer stays and continue to use the services.***
 
-For 1-10 Years
+> `For 1-10 Years`
 ```sql
 Tenure_1-10 = 
     COUNTROWS(
         FILTER(Table1, Table1[tenure] >= 0 && Table1[tenure] <= 10)
     )
 ```
-For 11-20 Years
+> `For 11-20 Years`
 ```sql
 Tenure_11-20 = 
     COUNTROWS(
         FILTER(Table1, Table1[tenure] >= 11 && Table1[tenure] <= 20)
     )
 ```
-For 21 Years and Beyond
+> `For 21 Years and Beyond`
 ```sql
 Tenure_21&Above = 
     COUNTROWS(
@@ -53,6 +53,15 @@ TotalAdminTickets = SUM(Table1[numAdminTickets])
 ```
 ```sql
 TotalTechTickets = SUM(Table1[numTechTickets])
+```
+
+***4. Calculating the number of customers who uses the same internet services.***
+```sql
+Total_Categories_Count = 
+    COUNTROWS(FILTER(Table1, 
+        Table1[InternetService] = "DSL" || 
+        Table1[InternetService] = "Fiber Optic" || 
+        Table1[InternetService] = "No"))
 ```
 -------
 <br>
