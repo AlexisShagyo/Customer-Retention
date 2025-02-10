@@ -74,9 +74,13 @@ Total_Categories_Count =
 ## 📚 Insights
 
 - In the previous month, approximately 27% of our customers discontinued our services. The majority of these customers were on monthly contracts, totaling 1,655 individuals. Many of them were subscribed to Fiber Optic Internet, which accounted for 1,162 customers. Additionally, around 1,313 customers in this group raised technical support tickets.
+  
 - 39% of the customers have signed up for services such as: Multiple Lines, Online Security, Online Backup, Device Protection, Tech Support, Streaming TV and Streaming Movies.
-- 30% of the customers have dependents and 48% of them have partners. 
+  
+- 30% of the customers have dependents and 48% of them have partners.
+  
 - 49% of the customers are female and 51% are composed of males. 59% of our customers have been using the services for more than 20 years and most of them are using Fiber Optic (44%) internet.
+  
 - It is essential for agents to prioritize resolving technical issues for Fiber Optic users. In contrast, agents assisting DSL customers and those without internet access should first address their administrative concerns. 
 <br>
 
