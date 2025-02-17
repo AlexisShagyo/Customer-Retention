@@ -1,6 +1,6 @@
 # 🕵️‍♀️Project Overview
 
-PhoneNow is a Telecom company that wants to implement a retention management to improve their services and wants to understand what are the factors that contibutes to a customer's reason for cutting off their services.
+PhoneNow is committed to enhancing its customer experience through effective retention management strategies. We recognize the importance of understanding the key factors that lead customers to discontinue their services. By uncovering these insights, we can tailor our offerings to better meet the needs of our clients and foster long-lasting relationships.
 
 The Retention Manager wants answers to the following questions:
 - Number of customers who left within the last month
